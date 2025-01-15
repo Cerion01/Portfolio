@@ -9,50 +9,36 @@ EMAIL: michan14@uci.edu
 <head>
     <meta charset="utf-8">
     <meta name="author" content="Michael Nguyen">
-    <meta name="description" content="Michael Nguyen;s Portfolio">
+    <meta name="description" content="Michael Nguyen's Portfolio">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="cssFiles/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- you would also link to Bootstrap here! -->
     <title>Michael's Portfolio</title>
 </head>
 
 <body>
     <header>
-        <nav>
-            <div class="name">Portfolio</div>
-            <ul class="links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="name">Michael</div>
+            <nav>
+                <a href="index.html"><span class="material-icons">home</span> Home</a>
+                <a href="about.html"><span class="material-icons">info</span> About Me</a>
+                <a href="resume.html"><span class="material-icons">description</span> Resume</a>
+                <a href="contact.html"><span class="material-icons">mail</span> Contact</a>
+            </nav>        
     </header>
-
-    <main>
-        <section id = "intro">
-            <h1>My Portfolio</h1>
-            <p>Test</p>
-        </section>
-
-        <section id="projects">
-            <h1>My Projects</h1>
-            <div class="project_section">
-                <h2>Project 1</h2>
-                <p>This is a desc.</p>
-                <a href="#">Link to Github</a>
+    <div class="outer-background-wrapper">
+        <div class="outer-background">
+            <div class="inner-background">
+                <img src="#" alt="Pic" class="profile-picture">
+                <div class="info">
+                    <h3>Your Name</h3>
+                    <p>Web Developer | Designer | Enthusiast</p>
+                </div>
             </div>
-            <div class="project_section">
-                <h2>Project 1</h2>
-                <p>This is a desc.</p>
-                <a href="#">Link to Github</a>
-            </div>
-        </section>
-
-        <footer>
-            <p>Social Media Links</p>
-        </footer>
-    </main>
+        </div>
+    </div>
+    
 
 </body>
 </html>
