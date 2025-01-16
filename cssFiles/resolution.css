@@ -1,0 +1,143 @@
+@media (max-width: 1500px) {
+    .outer-background, .inner-background {
+        max-width: 95%;
+        padding: 25px;
+    }
+
+    .inner-background {
+        min-width: 100%;
+    }
+
+    .profile-picture {
+        width: 250px;
+        height: 250px;
+    }
+
+    .info h2 {
+        font-size: 26px;
+    }
+
+    .info p {
+        font-size: 18px;
+    }
+
+    .skills {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .skill-box {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .outer-background, .inner-background {
+        max-width: 90%;
+        padding: 20px;
+    }
+
+    .inner-background {
+        min-width: 100%;
+    }
+
+    .profile-picture {
+        width: 200px;
+        height: 200px;
+    }
+
+    .info h2 {
+        font-size: 24px;
+    }
+
+    .info p {
+        font-size: 18px;
+    }
+
+    .skills {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .name {
+        font-size: 24px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    nav a {
+        padding: 10px 20px;
+        font-size: 18px;
+        margin-right: 0;
+    }
+
+    .outer-background-wrapper {
+        padding: 20px;
+    }
+
+    .skills {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .skill-box {
+        padding: 10px;
+    }
+
+    .project {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-image, .project-text {
+        max-width: 100%;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 550px) {
+    .social-media {
+        gap: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-picture {
+        width: 150px;
+        height: 150px;
+    }
+
+    .info h2 {
+        font-size: 20px;
+    }
+
+    .info p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 420px) {
+    .social-media {
+        gap: 30px;
+    }
+
+    .social-icon {
+        font-size: 20px;
+    }
+
+    .scroll-arrow {
+        font-size: 20px;
+    }
+}
