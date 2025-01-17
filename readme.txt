@@ -1,5 +1,13 @@
 --Readme document for Michael Nguyen--
 
+Resources:
+https://stackoverflow.com/questions/40526500/css-for-different-screen-resolutions
+https://stackoverflow.com/questions/13847755/css-media-queries-for-screen-sizes
+https://openclassrooms.com/en/courses/5295881-create-web-page-layouts-with-css/5341491-set-media-queries-for-different-devices
+https://www.w3schools.com/cssref/sel_hover.php
+https://www.w3schools.com/cssref/index.php
+https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow
+
 A reminder on academic integrity, as described in the syllabus.
 
 In general, the course staff expects that you will look at code and examples from many online resources as part of the assignments, particularly to resolve syntax and understand frameworks. We expect that you'll use other libraries you find, and will even require it in some assignments. These practices are often critical to the work of developers today. The best developers are adept at interpreting the examples they see, customizing them to their specific situation, and citing their sources so they can find them later. We expect you to do the same.
