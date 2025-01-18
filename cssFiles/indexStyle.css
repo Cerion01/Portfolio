@@ -199,3 +199,27 @@ nav a:hover {
         transform: translateY(-5px);
     }
 }
+
+.welcome {
+    position: absolute;        
+    top: 87px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    padding: 20px 40px;
+    font-size: 30px;
+    color: rgb(83, 61, 161);
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgb(80, 76, 76);
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333333;
+    color: white;
+    font-size: 14px;
+    position: relative;
+    box-shadow: 0 1px 8px rgb(0, 0, 0);
+}

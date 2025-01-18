@@ -1,9 +1,5 @@
 todo:
 
-make footer for social media/contact
-
-improve header font/maybe add logo
-
 create about me page
 
 create resume page
