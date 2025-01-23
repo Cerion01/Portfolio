@@ -1,3 +1,4 @@
+/* Apply to all */
 * {
     margin: 0;
     padding: 0;
@@ -52,9 +53,10 @@ nav a:hover {
     background: rgb(224, 219, 219);
 }
 
+/* Projects CSS*/
 #projects {
     padding: 50px 20px;
-    background-image: url(../imgs/grayBackground.jpg);
+    background-image: url(../../imgs/grayBackground.jpg);
     background-size: cover;
     background-position: center center;
     text-align: center;
@@ -68,13 +70,14 @@ nav a:hover {
     border-radius: 20px;
     display: inline-block;
     font-family: 'PT Serif Caption', serif;
+    box-shadow: 0 4px 8px rgb(80, 76, 76);
 }
 
 .project {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 150px;
 }
 
 .project-image {
@@ -122,4 +125,39 @@ nav a:hover {
 
 .reverse .project-text {
     padding-left: 20px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #333333;
+    color: white;
+    font-size: 14px;
+    position: relative;
+    box-shadow: 0 1px 8px rgb(0, 0, 0);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.social-media-footer {
+    display: flex;
+    gap: 150px;
+    margin-right: 70px;
+}
+
+.social-icon-footer {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icon-footer:hover {
+    color: #0077b5;
+    transform: scale(1.2);
 }

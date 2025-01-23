@@ -1,0 +1,151 @@
+@media (max-width: 1200px) {
+    #projects {
+        padding: 40px 15px;
+    }
+
+    #projects h2 {
+        font-size: 40px;
+        padding: 10px 20px;
+    }
+
+    .project {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .project-image, .project-text {
+        max-width: 90%;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-media-footer {
+        gap: 80px;
+        margin: 20px 0;
+    }
+
+    .project-text p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    nav a {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+
+    #projects h2 {
+        font-size: 35px;
+    }
+
+    .project {
+        margin-bottom: 100px;
+    }
+
+    .project-image img {
+        max-width: 100%;
+    }
+
+    .project-text {
+        padding: 15px;
+        font-size: 18px;
+    }
+
+    .project-text h3 {
+        font-size: 25px;
+    }
+
+    .footer-container {
+        text-align: center;
+    }
+
+    .social-media-footer {
+        gap: 50px;
+    }
+
+    .project-text p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .name {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    nav a {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+
+    #projects h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .project {
+        margin-bottom: 80px;
+    }
+
+    .project-text {
+        font-size: 16px;
+    }
+
+    .project-text h3 {
+        font-size: 22px;
+    }
+
+    .social-icon-footer {
+        font-size: 30px;
+    }
+
+    .project-text p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 360px) {
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .social-media-footer {
+        gap: 30px;
+    }
+
+    #projects h2 {
+        font-size: 25px;
+    }
+
+    .project {
+        margin-bottom: 50px;
+    }
+
+    .project-text {
+        font-size: 14px;
+    }
+
+    .project-text h3 {
+        font-size: 20px;
+    }
+
+    .project-text p {
+        font-size: 12px;
+    }
+}

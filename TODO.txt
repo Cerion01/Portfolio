@@ -1,7 +1,0 @@
-todo:
-
-create about me page
-
-create resume page
-
-create contact page

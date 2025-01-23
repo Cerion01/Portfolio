@@ -1,0 +1,137 @@
+/* Apply to all */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Serif Caption', serif;
+}
+
+.material-icons {
+    color: black;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+header {
+    background: white;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgb(80, 76, 76);
+}
+
+.name {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    align-items: center;
+    font-family: 'PT Serif Caption', serif;
+    margin-left: 20px;
+}
+
+nav {
+    display: flex;
+    gap: 5px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-family: 'PT Serif Caption', serif;
+    transition: background 0.3s;
+    margin-right: 10px;
+    font-size: 21px;
+}
+
+nav a:hover {
+    background: rgb(224, 219, 219);
+}
+
+.footer {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #333333;
+    color: white;
+    font-size: 14px;
+    position: relative;
+    box-shadow: 0 1px 8px rgb(0, 0, 0);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.social-media-footer {
+    display: flex;
+    gap: 150px;
+    margin-right: 70px;
+}
+
+.social-icon-footer {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icon-footer:hover {
+    color: #0077b5;
+    transform: scale(1.2);
+}
+
+/* About CSS */
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    padding: 20px;
+    background-color: rgb(223, 223, 223);
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    max-width: 1200px;
+    flex: 1;
+    padding: 20px;
+}
+
+.about-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.about-text h1 {
+    font-size: 40px;
+    margin-bottom: 35px;
+    color: rgb(0, 0, 0);
+}
+
+.about-text p {
+    font-size: 17px;
+    margin-bottom: 15px;
+    color: gray;
+}
+
+.about-image {
+    flex: 1;
+    text-align: center;
+}
+
+.about-image img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 1px 8px rgb(0, 0, 0);
+}

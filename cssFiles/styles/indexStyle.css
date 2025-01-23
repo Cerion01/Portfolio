@@ -1,3 +1,4 @@
+/* Apply to all */
 * {
     margin: 0;
     padding: 0;
@@ -52,8 +53,9 @@ nav a:hover {
     background: rgb(224, 219, 219);
 }
 
+/* Index CSS */
 .outer-background {
-    background-image: url(../imgs/blackBackground.jpg);
+    background-image: url(../../imgs/blackBackground.jpg);
     border-radius: 100px;
     padding: 40px;
     max-width: 1600px;
@@ -65,7 +67,7 @@ nav a:hover {
 }
 
 .inner-background {
-    background-image: url(../imgs/whiteBackground.jpg);
+    background-image: url(../../imgs/whiteBackground.jpg);
     border-radius: 80px;
     padding: 40px;
     min-height: 900px;
@@ -78,7 +80,7 @@ nav a:hover {
 }
 
 .outer-background-wrapper {
-    background-image: url(../imgs/grayBackground.jpg);
+    background-image: url(../../imgs/grayBackground.jpg);
     background-size: cover;
     background-position: center center;
     padding: 40px;
@@ -154,7 +156,7 @@ nav a:hover {
     transform: scale(1.2);
 }
 
-
+/* Move background white inner image */
 @keyframes moveBackground {
     0% {
         background-position: 0 0;
@@ -188,6 +190,7 @@ nav a:hover {
     background-color: #da6d46;
 }
 
+/* Move Project Button */
 @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
         transform: translateY(0);
@@ -216,10 +219,35 @@ nav a:hover {
 
 .footer {
     text-align: center;
-    padding: 20px;
+    padding: 10px 20px;
     background-color: #333333;
     color: white;
     font-size: 14px;
     position: relative;
     box-shadow: 0 1px 8px rgb(0, 0, 0);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.social-media-footer {
+    display: flex;
+    gap: 150px;
+    margin-right: 70px;
+}
+
+.social-icon-footer {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icon-footer:hover {
+    color: #0077b5;
+    transform: scale(1.2);
 }

@@ -1,0 +1,211 @@
+/* Apply to all */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Serif Caption', serif;
+}
+
+.material-icons {
+    color: black;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+header {
+    background: white;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgb(80, 76, 76);
+}
+
+.name {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    align-items: center;
+    font-family: 'PT Serif Caption', serif;
+    margin-left: 20px;
+}
+
+nav {
+    display: flex;
+    gap: 5px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-family: 'PT Serif Caption', serif;
+    transition: background 0.3s;
+    margin-right: 10px;
+    font-size: 21px;
+}
+
+nav a:hover {
+    background: rgb(224, 219, 219);
+}
+
+.footer {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #333333;
+    color: white;
+    font-size: 14px;
+    position: relative;
+    box-shadow: 0 1px 8px rgb(0, 0, 0);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.social-media-footer {
+    display: flex;
+    gap: 150px;
+    margin-right: 70px;
+}
+
+.social-icon-footer {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icon-footer:hover {
+    color: #0077b5;
+    transform: scale(1.2);
+}
+
+/* Contact CSS */
+body {
+    background: linear-gradient(rgb(165, 170, 170), rgb(186, 216, 228));
+}
+
+.contact-container {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.contact-image-left {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.contact-image-left img {
+    width: 250px;
+    height: auto;
+}
+
+.contact-image-right {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.contact-image-right img {
+    width: 250px;
+    height: auto;
+    transform: scaleX(-1);
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.contact-title h2 {
+    font-weight: 600;
+    color: #078FE3;
+    font-size: 40px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.contact-title hr {
+    border: none;
+    width: 300px;
+    height: 5px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-inputs {
+    width: 100%;
+    max-width: 900px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-weight: 500;
+    color: gray;
+    border-radius: 15px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact textarea {
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 10px;
+}
+
+.contact-inputs:focus {
+    border: 2px solid rgb(71, 185, 238);
+}
+
+.contact-inputs::placeholder {
+    color: rgb(95, 105, 109);
+}
+
+.contact button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #000000;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg, #07E3A8, #078FE3);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contact button:hover {
+    background: linear-gradient(270deg, #07E3A8, #078FE3);
+    transform: scale(1.05);
+}
+
+label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    clip-path: inset(50%);
+    white-space: nowrap;
+    overflow: hidden;
+}
