@@ -68,11 +68,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations/Using_CSS_animat
 https://www.youtube.com/watch?v=-HeadgoqJ7A&ab_channel=GreatStack
 https://dsavir-h.medium.com/contact-form-for-static-site-with-web3forms-575ee166732
 
-The URLs above are some of the main resources I used while developing my portfolio. Also, I have used some Generative AI asking for syntax and additional features
-regarding the CSS elements. For example, I asked "Main CSS and HTML syntax and code used for websites and portfolios" or more specific queries such as
-"How to move my image/text (a certain way)" or "How to use keyframes and media resolutions examples CSS". Also, for the javascript portion of my contact page, I used some
-generative AI to help me create it as I have no experience in javascript at all and was just a minor detail I needed help on. Also, I asked how to
-make labels invisible but still there for screen readers.
+The URLs above are some of the main resources I used while developing my portfolio. Also, I have used some Generative AI asking for syntax and additional features regarding the CSS elements. For example, I asked "Main CSS and HTML syntax and code used for websites and portfolios" or more specific queries such as "How to move my image/text (a certain way)" or "How to use keyframes and media resolutions examples CSS". Also, for the javascript portion of my contact page, I used some generative AI to help me create it as I have no experience in javascript at all, and was just a minor detail I needed help on. Also, I asked how to make labels invisible but still there for screen readers.
 
 
 
